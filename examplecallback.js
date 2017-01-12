@@ -7,3 +7,5 @@ function callbackTester (callback, param1, param2) {
 }
 
 callbackTester(tryMe, "hello", "goodbye");
+
+//outputs hello and goodbye
