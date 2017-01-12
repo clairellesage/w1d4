@@ -25,7 +25,7 @@ var cart = {
 	calculateTotal: calculateTotal
 };
 //problem here
-var cart.calculate = calculateTotalWithTax;
+cart.calculate = calculateTotalWithTax;
 //pointer to calculateTotal function
 var total = cart.calculateTotal();
 var totalWithTax = cart.calculate();
